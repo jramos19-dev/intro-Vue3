@@ -4,7 +4,7 @@ const app = {
 
     data() {
       return {
-        title: "Inventory App",
+        title: "Jorge's Store Inventory App",
         newProduct: "",
         products: [
           {
