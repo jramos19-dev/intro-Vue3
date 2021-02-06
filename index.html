@@ -30,12 +30,12 @@
           >
 
             
-            <span v-if="product.qty == 0" class="text-xs font-bold text-red-800"
+            <span v-if="product.qty == 0" class="text-xs font-bold text-red-400"
               >Out of Stock!</span
             >
             <span v-else>{{product.qty}}</span> - {{product.name}}
             <button
-              class="bg-green-500 ml-10 px-4 text-white rounded hover:bg-green-700"
+              class="bg-green-500 ml-10 px-4 text-white rounded hover:bg-green-400"
               @click="product.qty++"
             >
               +
