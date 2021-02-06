@@ -24,12 +24,13 @@
           @change="addProduct"
         />
         <ul>
+          <!-- this v-for is like a for loop for the vue framework-->
           <li
             v-for="product in products"
             class="bg-yellow w-10/12 mx-auto mt-2 py-2 px-2 text-gray-900 rounded shadow"
           >
 
-            
+            <!-- same thing here exept that this is a if using the framework-->
             <span v-if="product.qty == 0" class="text-xs font-bold text-red-400"
               >Out of Stock!</span
             >
